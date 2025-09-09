@@ -4,7 +4,9 @@ Clone the repository
 
 In the root of each of your Node.js projects, run the check:
 
-Linux/macOS
+For MacOS run remediate-npm_macos.sh
+
+Linux
 bash
 
     chmod +x remediate-npm.sh
@@ -17,7 +19,7 @@ powershell
 
 If any matches are found, apply the fix (carefully, lockfiles are not touched):
 
-Linux/macOS
+Linux
 bash
 
     ./remediate-npm.sh --fix --yes
