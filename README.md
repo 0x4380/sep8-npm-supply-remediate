@@ -7,25 +7,25 @@ In the root of each of your Node.js projects, run the check:
 Linux/macOS
 bash
 
-    chmod +x ./scripts/remediate-npm.sh
-    ./scripts/remediate-npm.sh --detect
+    chmod +x remediate-npm.sh
+    ./remediate-npm.sh --detect
 
 Windows (PowerShell)
 powershell
 
-    ./scripts/remediate-npm.ps1 --detect
+    ./remediate-npm.ps1 --detect
 
 If any matches are found, apply the fix (carefully, lockfiles are not touched):
 
 Linux/macOS
 bash
 
-    ./scripts/remediate-npm.sh --fix --yes
+    ./remediate-npm.sh --fix --yes
 
 Windows
 powershell
 
-    ./scripts/remediate-npm.ps1 --fix --yes
+    ./remediate-npm.ps1 --fix --yes
 
 Options
 
