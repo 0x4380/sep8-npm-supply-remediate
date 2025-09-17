@@ -41,6 +41,15 @@ $Affected = @{
   "has-ansi"            = @("6.0.1")
   "chalk-template"      = @("1.1.1")
   "backslash"           = @("0.2.1")
+  "@crowdstrike/commitlint"        = @("8.1.1","8.1.2")
+  "@crowdstrike/falcon-shoelace"   = @("0.4.1","0.4.2")
+  "@crowdstrike/foundry-js"        = @("0.19.1","0.19.2")
+  "@crowdstrike/glide-core"        = @("0.34.2","0.34.3")
+  "@crowdstrike/logscale-dashboard"= @("1.205.1","1.205.2")
+  "@crowdstrike/logscale-file-editor" = @("1.205.1","1.205.2")
+  "@crowdstrike/logscale-parser-edit" = @("1.205.1","1.205.2")
+  "@crowdstrike/logscale-search"   = @("1.205.1","1.205.2")
+  "@crowdstrike/tailwind-toucan-base" = @("5.0.1","5.0.2")
 }
 
 # --- Контекст проекта / lock
